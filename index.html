@@ -1,0 +1,268 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<head>
+		<title>Erly Mulyani | Mahasiswi</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link href="assets/css/style.css" rel="stylesheet"  >
+	</head>
+	<body >
+			<section>
+				 <nav >
+					 <div class="toggle">
+						 <button onclick="menu_open()" class="tombol tombol-navigasi">Menu</button>
+					 </div>
+					 <ul style="padding-top:20px;" id="menu-list"  >
+						 <li><a href="#aboutme">About Me</a></li>
+						 <li><a href="#education">Education</a></li>
+					 	 <li><a href="#profile">Profile</a></li>
+					 </ul>
+				 </nav>
+				 <div class="sosmed">
+					 <div class="isi-sosmed">
+						 <a href="https://twitter.com/ErlyMulyani" target="_blank"><img src="https://erlymulyani.netlify.app/assets/images/twitter.png"> </a>
+						 <a href="https://api.whatsapp.com/send?phone=6288996581703&text=Assalamualaikum" target="_blank"><img src="https://erlymulyani.netlify.app/assets/images/wa2.png"></a>
+						 <a href="https://www.instagram.com/erlymulya_/" target="_blank"><img src="https://erlymulyani.netlify.app/assets/images/ig.png"> </a>
+						 <a href="mailto:erlymulyanizha@gmail.com" target="_blank"><img src="https://erlymulyani.netlify.app/assets/images/gmail.png"></a>
+						 <a href="https://www.facebook.com/erly.mulya.3" target="_blank"><img style="width:38px;" src="https://erlymulyani.netlify.app/assets/images/fb.png"></a>
+					 </div>
+				 </div>
+
+				 <div class="banner">
+	         <center>
+	            <div id="circle3"></div>
+	            <div id="circle2"></div>
+	            <div id="circle"></div>
+	            <div class="title">
+	              <h1 class="name">Hai, Saya Erly Mulyani</h1>
+				  <p>Mahasiswi D3-Teknik Informatika</p>
+				  <p>POLITEKNIK NEGERI BANYUWANGI </p>
+								<!-- <div class="circle-small">
+									<br/>
+									<b>V</b>
+								</div> -->
+
+							</div>
+	         </center>
+	       </div>
+				 <div id="aboutme">
+				 </div>
+				<!-- Start SVG Curve -->
+				<svg  id="curve"
+					   viewBox="0 0 1400 214.953"
+					 xml:space="preserve">
+				<path style="opacity:1;fill:;" d="M0,139.29C207.803,40.048,277.683-60.968,472.864,45.364
+					c195.181,106.331,346.987,163.042,481.928,77.975c134.939-85.065,337.348-34.515,437.348,41.225c100,75.743,7.861,6.627,7.861,6.627
+					v73.387H0V139.29z"/>
+				</svg>
+				<!-- End SVG Curve -->
+			</section>
+		<div id="wrapper">
+			<section   class="sec2" >
+	      <div class="content">
+					<div >
+	          <h1 class="title-content">About Me</h1>
+	          <div class="left-menu">
+							<div class="circle-avatar"></div>
+
+	          </div>
+	          <div class="right-menu">
+							<p>
+								Halo everyone :) <br/>Saya adalah seorang   <i class="important">Mahasiswi</i> <i class="important">POLITEKNIK NEGERI BANYUWANGI</i>, <i class="important">ramah</i>, dan terkadang <i class="important">Menyenangkan:')</i>.
+							</p>
+							<p>
+								Lahir pada bulan    <b class="important">Juli</b> tanggal    <b class="important">19</b> dan tahun    <b class="important">2001</b>, bertempat di    <b class="important">Banyuwangi</b>, Jawa Timur, Indonesia.
+							</p>
+							<p>
+								Tinggal dan Lahir di Kota    <b class="important">Banyuwangi</b>, membuat Saya begitu menyukai  <b class="important">Alam & Ingin menjelajahi lebih jauh</b> alam di   <b class="important">Indonesia</b> yang begitu   <b class="important">Mengesankan</b>.
+	          </div>
+					</div>
+	      </div>
+
+			</section>
+
+			<section class="sec3" id="education">
+	      <div class="content content-float">
+					<h1 class="title-content">Education</h1>
+					<div class="area-card">
+						<div class="card">
+							<div class="card-header" style="background:url('https://lh3.googleusercontent.com/proxy/tAv1ej3hhK3_aciY4wpK1AHGmCVXW4wSFYKjUOFkU5_spsR_Zl2f5jFzSwjMan__d82P1-XrfSKKtpeXYJDyETosLZu757z73S9ncFcQ2tgd') ;background-size : cover;">
+							</div>
+							<div class="card-body">
+								<p style="color:#fff">
+									<b>SD NEGERI 1 PADANG - SINGOJURUH</b>
+									<br/>
+									<i>2008-2014</i>
+								</p>
+								<a href="#modal-sd" class="tombol tombol-link">Detail</a>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" style="background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYYzks-T54Kc5WeMJfHk73kg-Ly0JafvngPw&usqp=CAU') ;background-size : cover;">
+							</div>
+							<div class="card-body">
+								<p style="color:#fff">
+									<b>SMP NEGERI 1 SINGOJURUH</b>
+									<br/>
+									<i>2014-2017</i>
+								</p>
+								<a href="#modal-smp" class="tombol tombol-link">Detail</a>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" style="background:url('https://lh3.googleusercontent.com/proxy/BVTFvdLtFHujYkjB20doqxjmrce9-v8PEJcJ9otskwFH0mYJph1V6gb089JEuYDkjAkm24GbF0AbIfRy_1FMtVbwT8rZkUgnWzeqKiu--G44uA') ;background-size : cover;">
+							</div>
+							<div class="card-body">
+								<p style="color:#fff">
+									<b>SMK NEGERI IHYA'ULUMUDIN - SINGOJURUH </b>
+									<br/>
+									<i>2017-2020</i>
+								</p>
+								<a href="#modal-smk" class="tombol tombol-link">Detail</a>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" style="background:url('https://cdn.timesmedia.co.id/images/2019/03/24/POliwangi-Banyuwangi-aa.jpg') ;background-size : cover;">
+							</div>
+							<div class="card-body">
+								<p style="color:#fff">
+									<b>POLITEKNIK<br/>NEGERI BANYUWANGI </b>
+									<br/>
+									<i>2020-Now (SMT 1)</i>
+								</p>
+								<a href="#modal-poliwangi" class="tombol tombol-link">Detail</a>
+							</div>
+						</div>
+					</div>
+			</div>
+
+				<svg  id="curve2"
+						 viewBox="0 0 1400 214.953"
+					 xml:space="preserve">
+				<path style="opacity:1;fill:;" d="M0,139.29C207.803,40.048,277.683-60.968,472.864,45.364
+					c195.181,106.331,346.987,163.042,481.928,77.975c134.939-85.065,337.348-34.515,437.348,41.225c100,75.743,7.861,6.627,7.861,6.627
+					v73.387H0V139.29z"/>
+				</svg>
+			</section>
+
+			<section class="sec4" id="profile">
+
+	      <div class="content">
+					<h1 class="title-content" style="padding-bottom:15px;">Profile</h1>
+					<p>
+						<ul class="text-profile">
+						<table>
+							<tbody>
+								<tr>
+									<th><h3>Nama</h3></th>
+									<td>:</td>
+									<td>Erly Mulyani</td>
+								</tr>
+								<tr>
+									<th><h3>TTL</h3></th>
+									<td>:</td>
+									<td>Banyuwangi, 19 Juli 2001</td>
+								</tr>
+								<tr>
+									<th><h3>Alamat</h3></th>
+									<td>:</td>
+									<td>Padang, Singojuruh, Kabupaten Banyuwangi</td>
+								</tr>
+								<tr>
+									<th><h3>Agama</h3></th>
+									<td>:</td>
+									<td>Islam</td>
+								</tr>
+								<tr>
+									<th><h3>Hobi</h3></th>
+									<td>:</td>
+									<td>Travelling</td>
+								</tr>
+							</tbody>
+						</table>							
+						</ul>
+
+					</p>
+				</div>
+			</section>
+
+		</div>
+		<div class="detail" id="modal-sd">
+			<div class="detail-sekolah" >
+				<div class="header-detail">
+					<h3>SD Negeri 1 Padang</h3>
+					<a class="tombol tombol-close" href="#close">Close</a>
+				</div>
+				<div class="body-detail">
+					<p>
+						Saya bersekolah di SD Negeri 1 Padang dari tahun 2008 hingga tahun 2014.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="detail" id="modal-smp">
+			<div class="detail-sekolah" >
+				<div class="header-detail">
+					<h3>SMP Negeri 1 Singojuruh</h3>
+					<a class="tombol tombol-close" href="#close">Close</a>
+				</div>
+				<div class="body-detail">
+					<p>
+						Saya bersekolah di SMP Negeri 1 Singojuruh tahun 2014 hingga tahun 2017.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="detail" id="modal-smk">
+			<div class="detail-sekolah" >
+				<div class="header-detail">
+					<h3>SMK Negeri Ihya'Ulumudin </h3>
+					<a class="tombol tombol-close" href="#close">Close</a>
+				</div>
+				<div class="body-detail">
+					<p>
+						Saya bersekolah di SMK Negeri Ihya'Ulumudin dari tahun 2017 hingga tahun 2020.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="detail" id="modal-poliwangi">
+			<div class="detail-sekolah" >
+				<div class="header-detail">
+					<h3>Politeknik Negeri Banyuwangi</h3>
+					<a class="tombol tombol-close" href="#close">Close</a>
+				</div>
+				<div class="body-detail">
+					<p>
+						Mahasiswi Aktif Semester 1 Program Studi D3-Teknik Informatika pada tahun 2020.
+					</p>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			function menu_open() {
+				let menu_list = document.getElementById('menu-list');
+				let tombol_navigasi = document.getElementsByClassName('tombol-navigasi')[0];
+				menu_list.className = " tampilkan";
+				tombol_navigasi.setAttribute('onclick', 'menu_close()');
+			}
+
+			function menu_close() {
+				let menu_list = document.getElementById('menu-list');
+				let tombol_navigasi = document.getElementsByClassName('tombol-navigasi')[0];
+				menu_list.className = " hidden";
+				tombol_navigasi.setAttribute('onclick', 'menu_open()');
+			}
+		</script>
+	</body>
